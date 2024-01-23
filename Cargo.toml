@@ -8,5 +8,7 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
+
 name = "array"
-path = "concepts/array"
+path = "concepts/array/main.rs"
+

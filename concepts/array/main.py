@@ -13,6 +13,9 @@ class Array:
         return self.length
     
     def pop(self):
+        if self.length == 0:
+            return None
+
         last_item = self.data[self.length - 1]
 
         del self.data[self.length - 1]
